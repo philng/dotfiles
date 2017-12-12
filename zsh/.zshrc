@@ -13,5 +13,3 @@ if ! zgen saved; then
 
   zgen save
 fi
-
-bindkey '^r' history-incremental-search-backward
