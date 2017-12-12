@@ -1,3 +1,4 @@
+
 set nocompatible
 filetype off
 
@@ -15,6 +16,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline.git'
 Plugin 'honza/vim-snippets.git'
+Plugin 'altercation/vim-colors-solarized.git'
 " Bundle 'majutsushi/tagbar.git'
 " Bundle 'ramitos/jsctags.git'
 " Bundle 'Valloric/YouCompleteMe.git'
@@ -26,6 +28,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
+set background=dark
+colorscheme solarized
 
 " Syntastic setup
 set statusline+=%#warningmsg#
